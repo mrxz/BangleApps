@@ -4857,5 +4857,20 @@
     {"name":"clicompleteclk.app.js","url":"app.js"},
     {"name":"clicompleteclk.img","url":"app-icon.js","evaluate":true}
   ]
+},
+{ "id": "sysinfo",
+  "name": "System Info",
+  "shortName": "SysInfo",
+  "version": "0.01",
+  "description": "Show the current status of the various hardware components (incl. GPS, HRM and Barometer)",
+  "icon": "app.png",
+  "tags": "",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "storage": [
+    {"name":"sysinfo.app.js", "url":"app.js"},
+    {"name":"sysinfo.img", "url":"app-icon.js", "evaluate":true}
+  ]
 }
+
 ]
